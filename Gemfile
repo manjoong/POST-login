@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.1.0'
 #헤로쿠
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
+#facebook
+gem 'omniauth-facebook'
 
 # 회원인증 및 권한설정을 위한 젬
 gem 'devise'     # 회원가입 및 인증
